@@ -167,11 +167,11 @@ export const ItemInfo = styled.div`
 
 export const ItemDescription = styled.span`
   font-size: 12px;
-font-weight: 400;
+  font-weight: 400;
   color: ${({ theme }) => theme.colors.defaultGrey};
   margin-top: 2px;
   line-height: 1.4;
-  width: 270px;
+  max-width: 240px;
 `;
 
 export const ItemPriceWrapper = styled.div`

@@ -33,7 +33,7 @@ export default function Home() {
         <SectionTitle>fechados</SectionTitle>
         <StoreCardWrapper>
           <StoreList stores={closedStores} closed />
-          <Tooltip>no momento esta loja está fechada</Tooltip>
+          <Tooltip>No momento estas lojas estão fechadas</Tooltip>
         </StoreCardWrapper>
       </StoresContainer>
     </>
