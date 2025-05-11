@@ -178,7 +178,7 @@ export const ItemDescription = styled.span`
   color: ${({ theme }) => theme.colors.defaultGrey};
   margin-top: 2px;
   line-height: 1.4;
-  max-width: 240px;
+  max-width: 260px;
 `;
 
 export const ItemPriceWrapper = styled.div`
@@ -199,6 +199,7 @@ export const ItemPrice = styled.span<{ $highlight?: boolean }>`
   color: ${({ $highlight }) => ($highlight ? "#00bb72" : "#8900bb")};
   display: flex;
   align-items: center;
+  width: 60px;
   img {
     margin-right: 5px;
   }
