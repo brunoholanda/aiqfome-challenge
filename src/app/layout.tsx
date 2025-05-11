@@ -1,34 +1,20 @@
-'use client';
+import type { ReactNode } from 'react';
+import ClientLayout from './ClientLayout';
 
-import { ThemeProvider } from 'styled-components';
-import { GlobalStyle } from './styles/global';
-import { theme } from './styles/theme';
-import { ReactNode } from 'react';
-import { Nunito } from 'next/font/google';
-import { Header } from './components/PageBody/Header';
-import { Footer } from './components/PageBody/Footer';
-import { usePathname } from 'next/navigation';
+export const metadata = {
+  title: { default: 'Ai que Fome', template: '%s | Ai que Fome' },
+  description: 'Delivery de comida com fome',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', media: '(prefers-color-scheme: light)' },
+    ],
+  },
+};
 
-const nunito = Nunito({
-  subsets: ['latin'],
-  weight: ['200', '300', '400', '600', '700', '800', '900'],
-  variable: '--font-nunito',
-});
-
-export default function ThemeRegistry({ children }: { children: ReactNode }) {
-  const pathname = usePathname();
-  const hideFooter = pathname?.startsWith('/store/') && pathname.endsWith('/cart');
-
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="pt-BR" className={nunito.variable}>
-      <body className={nunito.variable}>
-        <ThemeProvider theme={theme}>
-          <GlobalStyle />
-          <Header />
-          <main>{children}</main>
-          {!hideFooter && <Footer />}
-        </ThemeProvider>
-      </body>
+    <html lang="pt-BR">
+      <ClientLayout>{children}</ClientLayout>
     </html>
   );
 }
