@@ -32,6 +32,13 @@ export const Social = styled.div`
   }
 `;
 
+export const ShareBtn = styled.button`
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+`;
+
 export const Row = styled.div`
   display: flex;
   gap: 6px;

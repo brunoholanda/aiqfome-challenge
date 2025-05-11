@@ -16,6 +16,21 @@ export default function StorePage() {
 
   const store = stores.find((s) => s.id === storeId);
   if (!store) return notFound();
+  const handleShare = () => {
+    const shareUrl = window.location.href;
+
+    if (navigator.share) {
+      navigator.share({
+        title: store.name,
+        text: `Confira ${store.name} no Ai que Fome`,
+        url: shareUrl,
+      }).catch((err) => console.error("Erro ao compartilhar:", err));
+    } else {
+      navigator.clipboard.writeText(shareUrl).then(() => {
+        alert("Link copiado para a área de transferência!");
+      });
+    }
+  };
 
   return (
     <S.Container>
@@ -29,7 +44,9 @@ export default function StorePage() {
 
             <S.ActionRow>
               <S.Social>
-                <Icon name="share" width={20} height={20} />
+                <S.ShareBtn onClick={handleShare}>
+                  <Icon name="share" width={20} height={20} />
+                </S.ShareBtn>
                 <Icon name="like" width={20} height={20} />
               </S.Social>
               <S.MoreInfos>mais infos ›</S.MoreInfos>
