@@ -107,6 +107,9 @@ https://aiqfome-challenge-ochre.vercel.app/
 ```bash
 https://www.figma.com/design/mgLRWavLkkZnDTVKOKQPie/-aiqfome--teste-front-end---MOBILE?node-id=2455-3699&t=WO8Ru3y3gTb7ADZE-0
 ```
+## 🚀 Performance
+![image](https://github.com/user-attachments/assets/3e546edb-0c93-43b7-8d65-f8f86a8c7630)
+---
 
 ## 📸 Outras Telas
 ![Sem título](https://github.com/user-attachments/assets/6c010400-cd4a-4822-a864-3ca85a5ce387)
