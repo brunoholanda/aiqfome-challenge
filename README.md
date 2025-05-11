@@ -6,7 +6,7 @@ Uma aplicação Mobile First moderna de delivery focado em experiências gastron
 
 ## 📸 Visão Geral
 
-![banner app](public/banner.webp)
+![image](https://github.com/user-attachments/assets/dfea4ac1-7fe1-41b1-9a5b-1a5125fbdcf0)
 
 A plataforma simula uma jornada completa de um app de delivery com:
 
@@ -99,7 +99,19 @@ npm install
 npm run dev
 ```
 
+## 🚀 Acesse o Projeto 
+https://aiqfome-challenge-ochre.vercel.app/
+---
+
 ## ⚙️ Figma Base
 ```bash
 https://www.figma.com/design/mgLRWavLkkZnDTVKOKQPie/-aiqfome--teste-front-end---MOBILE?node-id=2455-3699&t=WO8Ru3y3gTb7ADZE-0
 ```
+
+## 📸 Outras Telas
+![Sem título](https://github.com/user-attachments/assets/6c010400-cd4a-4822-a864-3ca85a5ce387)
+![image](https://github.com/user-attachments/assets/c547b8ec-a8ac-4743-962f-c1370f59d784)
+![Sem título](https://github.com/user-attachments/assets/55658126-65b2-446e-8003-86fbe0dbdd45)
+![Sem título-1](https://github.com/user-attachments/assets/e7cbf3ee-524d-41f0-84dd-edaa4ed1fc38)
+`
+---
