@@ -74,6 +74,7 @@ const SubInfo = styled.div`
 
 const Delivery = styled.div`
   display: flex;
+  align-items: center;
   gap: 4px;
   font-size: 14px;
   font-weight: 700;
