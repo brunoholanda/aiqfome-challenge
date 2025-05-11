@@ -36,11 +36,6 @@ export default function Home() {
           <Tooltip>no momento esta loja está fechada</Tooltip>
         </StoreCardWrapper>
       </StoresContainer>
-      {closed && (
-        <Tooltip>
-          No momento esta loja está fechada
-        </Tooltip>
-      )}
     </>
   );
 }

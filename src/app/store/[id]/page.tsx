@@ -1,6 +1,6 @@
 "use client";
 
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
 import * as S from './styles';
 import { stores } from "@/app/data/stores";
 import Icon from "@/app/components/Icon";
@@ -8,18 +8,13 @@ import { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { fakeMenu } from "@/app/data/fakeMenu";
 import Link from "next/link";
-import { Store } from "@/app/types";
 
-interface Props {
-  params: {
-    id: string;
-  };
-}
-
-export default function StorePage({ params }: Props) {
+export default function StorePage() {
   const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({});
-  const store: Store | undefined = stores.find((s) => s.id === params.id);
+  const params = useParams();
+  const storeId = Array.isArray(params.id) ? params.id[0] : params.id;
 
+  const store = stores.find((s) => s.id === storeId);
   if (!store) return notFound();
 
   return (
@@ -88,9 +83,9 @@ export default function StorePage({ params }: Props) {
               {description && <S.SectionSubtitle>{description}</S.SectionSubtitle>}
 
               <S.ItemsList $expanded={isExpanded}>
-                {items.map((item) => (
+                {items.map((item, index) => (
                   <Link
-                    key={item.name}
+                    key={`${item.name}-${index}`}
                     href={`/store/${params.id}/item/${encodeURIComponent(item.name)}`}
                   >
                     <S.MenuItem key={item.name} $highlight={item.highlight}>
