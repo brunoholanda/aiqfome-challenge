@@ -34,48 +34,48 @@ A plataforma simula uma jornada completa de um app de delivery com:
 ---
 
 ## 🧩 Arquitetura do Projeto
-.
+
 ├── .next/</br>
 ├── node_modules/</br>
-├── public/
-│   ├── icons/
-│   ├── img/
-│   ├── stores/
-│   └── banner.webp
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── Icon/
-│   │   │   ├── PageBody/
-│   │   │   ├── SearchBar/
-│   │   │   └── StoreList/
-│   │   ├── store/
-│   │   │   └── [id]/
-│   │   │       ├── cart/
-│   │   │       └── item/
-│   │   │           └── [itemId]/
-│   │   │               ├── ItemClient.tsx
-│   │   │               ├── page.tsx
-│   │   │               └── styles.ts
-│   │   │       ├── page.tsx
-│   │   │       └── styles.ts
-│   ├── data/
-│   ├── styles/
-│   │   ├── global.ts
-│   │   ├── styled.d.ts
-│   │   └── theme.ts
-│   └── types/
-├── .gitignore
-├── eslint.config.mjs
-├── next-env.d.ts
-├── next.config.ts
-├── package-lock.json
-├── tsconfig.json
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-├── page.module.css
-└── page.tsx
+├── public/</br>
+│   ├── icons/</br>
+│   ├── img/</br>
+│   ├── stores/</br>
+│   └── banner.webp</br>
+├── src/</br>
+│   ├── app/</br>
+│   │   ├── components/</br>
+│   │   │   ├── Icon/</br>
+│   │   │   ├── PageBody/</br>
+│   │   │   ├── SearchBar/</br>
+│   │   │   └── StoreList/</br>
+│   │   ├── store/</br>
+│   │   │   └── [id]/</br>
+│   │   │       ├── cart/</br>
+│   │   │       └── item/</br>
+│   │   │           └── [itemId]/</br>
+│   │   │               ├── ItemClient.tsx</br>
+│   │   │               ├── page.tsx</br>
+│   │   │               └── styles.ts</br>
+│   │   │       ├── page.tsx</br>
+│   │   │       └── styles.ts</br>
+│   ├── data/</br>
+│   ├── styles/</br>
+│   │   ├── global.ts</br>
+│   │   ├── styled.d.ts</br>
+│   │   └── theme.ts</br>
+│   └── types/</br>
+├── .gitignore</br>
+├── eslint.config.mjs</br>
+├── next-env.d.ts</br>
+├── next.config.ts</br>
+├── package-lock.json</br>
+├── tsconfig.json</br>
+├── favicon.ico</br>
+├── globals.css</br>
+├── layout.tsx</br>
+├── page.module.css</br>
+└── page.tsx</br>
 
 
 ## 🛠️ Funcionalidades Implementadas
