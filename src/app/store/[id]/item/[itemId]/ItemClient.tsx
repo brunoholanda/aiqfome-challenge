@@ -155,7 +155,7 @@ if (!id || !itemId || !item) {
         </S.Section>
       </S.SectionContainer>
       <S.SectionContainer>
-        <S.OptionGroup>
+        <S.OptionGroup borderTop>
           <S.GroupHeader>
             <span>qual o tamanho?</span>
             <S.Tag>obrigatório</S.Tag>
@@ -185,7 +185,7 @@ if (!id || !itemId || !item) {
         </S.OptionGroup>
       </S.SectionContainer>
       <S.SectionContainer>
-        <S.OptionGroup>
+        <S.OptionGroup borderTop>
           <S.GroupHeader>
             <span>acompanhamentos</span>
             <S.Tag>obrigatório</S.Tag>
@@ -207,7 +207,7 @@ if (!id || !itemId || !item) {
         </S.OptionGroup>
       </S.SectionContainer>
       <S.SectionContainer>
-        <S.OptionGroup>
+        <S.OptionGroup borderTop>
           <S.GroupHeader>
             <span>vai querer bebida?</span>
           </S.GroupHeader>
@@ -246,7 +246,7 @@ if (!id || !itemId || !item) {
         </S.OptionGroup>
       </S.SectionContainer>
       <S.SectionContainer>
-        <S.OptionGroup>
+        <S.OptionGroup borderTop>
           <S.GroupHeader>
             <span>precisa de talher?</span>
           </S.GroupHeader>
@@ -273,7 +273,7 @@ if (!id || !itemId || !item) {
 
       </S.SectionContainer>
       <S.SectionContainer>
-        <S.OptionGroup>
+        <S.OptionGroup borderTop>
           <S.GroupHeader>
             <span>mais alguma coisa?</span>
           </S.GroupHeader>
