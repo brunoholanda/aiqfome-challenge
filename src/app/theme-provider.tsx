@@ -20,15 +20,13 @@ export default function ThemeRegistry({ children }: { children: ReactNode }) {
   const hideFooter = pathname?.startsWith('/store/') && pathname.endsWith('/cart');
 
   return (
-    <html lang="pt-BR" className={nunito.variable}>
-      <body className={nunito.variable}>
-        <ThemeProvider theme={theme}>
-          <GlobalStyle />
-          <Header />
-          <main>{children}</main>
-          {!hideFooter && <Footer />}
-        </ThemeProvider>
-      </body>
-    </html>
+    <body className={nunito.variable}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <Header />
+        <main>{children}</main>
+        {!hideFooter && <Footer />}
+      </ThemeProvider>
+    </body>
   );
 }
