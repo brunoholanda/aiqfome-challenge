@@ -35,47 +35,50 @@ A plataforma simula uma jornada completa de um app de delivery com:
 
 ## 🧩 Arquitetura do Projeto
 .
-├── public/
+├── .next/                          # Build gerado pelo Next.js
+├── node_modules/                  # Dependências instaladas
+├── public/                        # Arquivos públicos e estáticos
 │   ├── icons/
 │   ├── img/
 │   ├── stores/
 │   └── banner.webp
-├── src/
-│   ├── app/
-│   │   ├── components/
+├── src/                           # Código-fonte principal
+│   ├── app/                       # Estrutura do App Router (Next.js 13+)
+│   │   ├── components/            # Componentes reutilizáveis
 │   │   │   ├── Icon/
 │   │   │   ├── PageBody/
 │   │   │   ├── SearchBar/
 │   │   │   └── StoreList/
-│   │   ├── store/
-│   │   │   └── [id]/
-│   │   │       ├── cart/
-│   │   │       └── item/
-│   │   │           └── [itemId]/
-│   │   │               ├── ItemClient.tsx
-│   │   │               ├── page.tsx
-│   │   │               └── styles.ts
-│   │   │       ├── page.tsx
-│   │   │       └── styles.ts
-│   ├── data/
-│   └── styles/
-│       ├── global.ts
-│       ├── styled.d.ts
-│       └── theme.ts
-│   └── types/
+│   │   ├── store/                 # Rotas relacionadas às lojas
+│   │   │   └── [id]/              # Página de uma loja específica
+│   │   │       ├── cart/          # Carrinho da loja
+│   │   │       └── item/          # Itens do cardápio
+│   │   │           └── [itemId]/  # Página de item específico
+│   │   │               ├── ItemClient.tsx   # Client Component com interação
+│   │   │               ├── page.tsx         # Server Component (Next.js Page)
+│   │   │               └── styles.ts        # Estilos do ItemPage
+│   │   │       ├── page.tsx       # Página da loja (menu/categorias)
+│   │   │       └── styles.ts      # Estilo da página da loja
+│   ├── data/                      # Arquivos de dados simulados (mock)
+│   │   ├── stores.ts
+│   │   └── fakeMenu.ts
+│   ├── styles/                    # Estilos globais e tema
+│   │   ├── global.ts
+│   │   ├── styled.d.ts
+│   │   └── theme.ts
+│   └── types/                     # Tipagens globais TypeScript
 ├── .gitignore
-├── eslint.config.mjs
+├── eslint.config.mjs             # Configuração do ESLint
 ├── next-env.d.ts
 ├── next.config.ts
 ├── package-lock.json
-├── tsconfig.json
+├── tsconfig.json                 # Configuração do TypeScript
 ├── favicon.ico
-├── globals.css
-├── layout.tsx
+├── globals.css                   # Estilo global CSS
+├── layout.tsx                    # Layout padrão do App Router
 ├── page.module.css
-└── page.tsx
+└── page.tsx                      # Página inicial
 
----
 
 ## 🛠️ Funcionalidades Implementadas
 
@@ -93,8 +96,9 @@ A plataforma simula uma jornada completa de um app de delivery com:
 
 ```bash
 git clone https://github.com/brunoholanda/aiqfome-challenge.git
-npm install
 cd aiqfome-challenge
+npm install
+npm run dev
 ```
 
 ## ⚙️ Figma Base
