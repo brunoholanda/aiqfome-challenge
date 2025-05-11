@@ -44,7 +44,7 @@ const PageContainer = styled.main`
   background-color: ${({ theme }) => theme.colors.primary};
   padding: 0;
   margin: 0;
-  top: 65px;
+  top: 66px;
   width: 100%;
   position: absolute;
 `;
