@@ -35,8 +35,8 @@ A plataforma simula uma jornada completa de um app de delivery com:
 
 ## 🧩 Arquitetura do Projeto
 .
-├── .next/
-├── node_modules/
+├── .next/</br>
+├── node_modules/</br>
 ├── public/
 │   ├── icons/
 │   ├── img/
