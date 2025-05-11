@@ -111,7 +111,7 @@ export const CircleBtn = styled(IconBtn)`
 `;
 
 
-export const OptionGroup = styled.div<{ borderTop?: boolean }>`
+export const OptionGroup = styled.div`
   padding: 12px 0;
 `;
 
