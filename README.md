@@ -100,7 +100,7 @@ npm run dev
 ```
 
 ## 🚀 Acesse o Projeto 
-https://aiqfome-challenge-ochre.vercel.app/
+https://aiqfome-challenge-git-main-brunoholandas-projects.vercel.app/
 ---
 
 ## ⚙️ Figma Base
