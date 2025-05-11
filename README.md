@@ -6,7 +6,7 @@ Uma aplicação Mobile First moderna de delivery focado em experiências gastron
 
 ## 📸 Visão Geral
 
-![banner app](public/banner.webp)
+![image](https://github.com/user-attachments/assets/dfea4ac1-7fe1-41b1-9a5b-1a5125fbdcf0)
 
 A plataforma simula uma jornada completa de um app de delivery com:
 
@@ -34,48 +34,48 @@ A plataforma simula uma jornada completa de um app de delivery com:
 ---
 
 ## 🧩 Arquitetura do Projeto
-.
-├── .next/
-├── node_modules/
-├── public/
-│   ├── icons/
-│   ├── img/
-│   ├── stores/
-│   └── banner.webp
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── Icon/
-│   │   │   ├── PageBody/
-│   │   │   ├── SearchBar/
-│   │   │   └── StoreList/
-│   │   ├── store/
-│   │   │   └── [id]/
-│   │   │       ├── cart/
-│   │   │       └── item/
-│   │   │           └── [itemId]/
-│   │   │               ├── ItemClient.tsx
-│   │   │               ├── page.tsx
-│   │   │               └── styles.ts
-│   │   │       ├── page.tsx
-│   │   │       └── styles.ts
-│   ├── data/
-│   ├── styles/
-│   │   ├── global.ts
-│   │   ├── styled.d.ts
-│   │   └── theme.ts
-│   └── types/
-├── .gitignore
-├── eslint.config.mjs
-├── next-env.d.ts
-├── next.config.ts
-├── package-lock.json
-├── tsconfig.json
-├── favicon.ico
-├── globals.css
-├── layout.tsx
-├── page.module.css
-└── page.tsx
+
+├── .next/</br>
+├── node_modules/</br>
+├── public/</br>
+│   ├── icons/</br>
+│   ├── img/</br>
+│   ├── stores/</br>
+│   └── banner.webp</br>
+├── src/</br>
+│   ├── app/</br>
+│   │   ├── components/</br>
+│   │   │   ├── Icon/</br>
+│   │   │   ├── PageBody/</br>
+│   │   │   ├── SearchBar/</br>
+│   │   │   └── StoreList/</br>
+│   │   ├── store/</br>
+│   │   │   └── [id]/</br>
+│   │   │       ├── cart/</br>
+│   │   │       └── item/</br>
+│   │   │           └── [itemId]/</br>
+│   │   │               ├── ItemClient.tsx</br>
+│   │   │               ├── page.tsx</br>
+│   │   │               └── styles.ts</br>
+│   │   │       ├── page.tsx</br>
+│   │   │       └── styles.ts</br>
+│   ├── data/</br>
+│   ├── styles/</br>
+│   │   ├── global.ts</br>
+│   │   ├── styled.d.ts</br>
+│   │   └── theme.ts</br>
+│   └── types/</br>
+├── .gitignore</br>
+├── eslint.config.mjs</br>
+├── next-env.d.ts</br>
+├── next.config.ts</br>
+├── package-lock.json</br>
+├── tsconfig.json</br>
+├── favicon.ico</br>
+├── globals.css</br>
+├── layout.tsx</br>
+├── page.module.css</br>
+└── page.tsx</br>
 
 
 ## 🛠️ Funcionalidades Implementadas
@@ -99,7 +99,19 @@ npm install
 npm run dev
 ```
 
+## 🚀 Acesse o Projeto 
+https://aiqfome-challenge-ochre.vercel.app/
+---
+
 ## ⚙️ Figma Base
 ```bash
 https://www.figma.com/design/mgLRWavLkkZnDTVKOKQPie/-aiqfome--teste-front-end---MOBILE?node-id=2455-3699&t=WO8Ru3y3gTb7ADZE-0
 ```
+
+## 📸 Outras Telas
+![Sem título](https://github.com/user-attachments/assets/6c010400-cd4a-4822-a864-3ca85a5ce387)
+![image](https://github.com/user-attachments/assets/c547b8ec-a8ac-4743-962f-c1370f59d784)
+![Sem título](https://github.com/user-attachments/assets/55658126-65b2-446e-8003-86fbe0dbdd45)
+![Sem título-1](https://github.com/user-attachments/assets/e7cbf3ee-524d-41f0-84dd-edaa4ed1fc38)
+`
+---
